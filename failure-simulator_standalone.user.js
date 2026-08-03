@@ -127,8 +127,8 @@
 // @updateURL https://update.greasyfork.org/scripts/581515/GeoFS-V39_Failure-Simulator.meta.js
 // ==/UserScript==
 
-(function() {
-    'use strict';
+(() => {
+    
 
     class FailureSimulator {
         /**
@@ -200,7 +200,7 @@
             this.updateLED(system, true);
 
             if (system.includes("engine")) {
-                let idx = parseInt(system.replace("engine", ""));
+                const idx = parseInt(system.replace("engine", ""));
                 if (!this.fails.engines[idx].i) {
                     // Engine Fire & Flameout Simulation
                     if (window.V39_NOTIF) window.V39_NOTIF.critical(`🔥 ENGINE ${idx+1} FAILURE - SHUT DOWN IMMEDIATELY`);
@@ -251,7 +251,7 @@
                             let fG = 0;
                             // Search for primary steering suspension
                             ac.suspensions.forEach((s, i) => { 
-                                let n = s.name ? s.name.toLowerCase() : "";
+                                const n = s.name ? s.name.toLowerCase() : "";
                                 if(n.includes("front") || n.includes("nose") || n.includes("tail") || n.includes("steer")) fG = i; 
                             });
                             this.activeFailures.set("gearFront", setInterval(() => { if(ac.suspensions[fG]) ac.suspensions[fG].collisionPoints[0][2] = 30; }, 1000));
@@ -263,7 +263,7 @@
                             this.fails.landingGear.left = true;
                             let lG = 1;
                             ac.suspensions.forEach((s, i) => { 
-                                let n = s.name ? s.name.toLowerCase() : "";
+                                const n = s.name ? s.name.toLowerCase() : "";
                                 if(n.includes("left") || n.includes("l_g") || n.includes("main l") || n.includes("l-gear")) lG = i; 
                             });
                             this.activeFailures.set("gearLeft", setInterval(() => { if(ac.suspensions[lG]) ac.suspensions[lG].collisionPoints[0][2] = 30; }, 1000));
@@ -275,7 +275,7 @@
                             this.fails.landingGear.right = true;
                             let rG = 2;
                             ac.suspensions.forEach((s, i) => { 
-                                let n = s.name ? s.name.toLowerCase() : "";
+                                const n = s.name ? s.name.toLowerCase() : "";
                                 if(n.includes("right") || n.includes("r_g") || n.includes("main r") || n.includes("r-gear")) rG = i; 
                             });
                             this.activeFailures.set("gearRight", setInterval(() => { if(ac.suspensions[rG]) ac.suspensions[rG].collisionPoints[0][2] = 30; }, 1000));
@@ -449,7 +449,7 @@
             }
             
             if (system.includes("engine")) {
-                let idx = parseInt(system.replace("engine", ""));
+                const idx = parseInt(system.replace("engine", ""));
                 this.fails.engines[idx].i = false;
                 // Restore nominal thrust coefficients
                 ac.engines[idx].thrust = ac.engines[idx]._p_thrust || 50000;
@@ -496,10 +496,10 @@
         tick() {
             if (this.enabled) {
                 // Evaluation Loop: Check all probability thresholds
-                for (let q in this.chances) {
+                for (const q in this.chances) {
                     if (typeof this.chances[q] === 'number' && Math.random() < this.chances[q]) this.fail(q);
                     else if (typeof this.chances[q] === 'object') {
-                        for (let j in this.chances[q]) if (Math.random() < this.chances[q][j]) this.fail(j);
+                        for (const j in this.chances[q]) if (Math.random() < this.chances[q][j]) this.fail(j);
                     }
                 }
                 // Recurrence: Evaluate every 60 seconds
@@ -651,7 +651,7 @@
         </div>`;
     }
 
-    window.openFailureSimulatorMenu = function() {
+    window.openFailureSimulatorMenu = () => {
         if (!window.failureSimulator) window.failureSimulator = new FailureSimulator();
         let menu = document.getElementById('geofs-failure-menu');
         if (!menu) {
@@ -684,22 +684,22 @@
                     <div id="sect-content-${groupId}" style="padding:10px 5px 0 5px;">${contentHtml}</div>
                 </div>`;
             
-            let gearHtml = buildRow("Nose Gear", "Nose/Tail wheel collapse. May cause steering loss and ground loops.", "1", "gearFront", "landingGear.gearFront") + 
+            const gearHtml = buildRow("Nose Gear", "Nose/Tail wheel collapse. May cause steering loss and ground loops.", "1", "gearFront", "landingGear.gearFront") + 
                            buildRow("Left Main Gear", "Left main landing gear collapse. Aircraft will tilt heavily to the left.", "2", "gearLeft", "landingGear.left") + 
                            buildRow("Right Main Gear", "Right main landing gear collapse. Aircraft will tilt heavily to the right.", "3", "gearRight", "landingGear.right");
             html += section("Landing Gear", "gear", gearHtml);
 
-            let ctrlHtml = buildRow("Ailerons", "Roll surface jam. Total loss of roll control; aircraft will be hard to level.", "4", "ailerons", "flightCtrl.ailerons") + 
+            const ctrlHtml = buildRow("Ailerons", "Roll surface jam. Total loss of roll control; aircraft will be hard to level.", "4", "ailerons", "flightCtrl.ailerons") + 
                            buildRow("Elevators", "Pitch surface jam. Loss of pitch control; aircraft may become unstable.", "5", "elevators", "flightCtrl.elevators") + 
                            buildRow("Rudder", "Yaw surface jam. Loss of directional control; critical during crosswinds.", "6", "rudder", "flightCtrl.rudder");
             html += section("Flight Controls", "ctrl", ctrlHtml);
 
-            let hydHtml = buildRow("Flaps Jam", "Hydraulic loss preventing flap extension. Higher landing speeds expected.", "11", "flaps", "hydraulic.flaps") + 
+            const hydHtml = buildRow("Flaps Jam", "Hydraulic loss preventing flap extension. Higher landing speeds expected.", "11", "flaps", "hydraulic.flaps") + 
                           buildRow("Brakes Failure", "Wheel brakes non-functional. Requires long runway or glass to stop.", "12", "brakes", "hydraulic.brakes") + 
                           buildRow("Spoilers Jam", "Speedbrakes fail to deploy. Difficult to slow down after touchdown.", "13", "spoilers", "hydraulic.spoilers");
             html += section("Hydraulics & Systems", "hyd", hydHtml);
 
-            let advHtml = buildRow("Electrical Failure", "Total instrument blackout. Autopilot and glass cockpit parts will go dark.", "14", "electrical", "electrical") + 
+            const advHtml = buildRow("Electrical Failure", "Total instrument blackout. Autopilot and glass cockpit parts will go dark.", "14", "electrical", "electrical") + 
                           buildRow("Fuel Tank Leak", "Critical fuel loss. Engines will starve and flame out in exactly 2 minutes.", "7", "fuelLeak", "fuelLeak") + 
                           buildRow("Structural Integrity", "Airframe damage. Severe vibrations and speed-limited structural stability.", "8", "structural", "structural") + 
                           buildRow("Cabin Pressure", "Decompression. Higher altitudes will cause severe pilot disorientation.", "9", "pressurization", "pressurization") + 
@@ -720,7 +720,7 @@
         menu.style.display = menu.style.display === 'none' ? 'flex' : 'none';
     };
 
-    window.initFailures = function() {
+    window.initFailures = () => {
         if (document.getElementById('fail-btn')) return;
         const btn = document.createElement('div');
         btn.id = 'fail-btn';
