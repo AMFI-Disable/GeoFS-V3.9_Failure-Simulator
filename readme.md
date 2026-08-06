@@ -1,4 +1,4 @@
-# GeoFS-V3.9_Failure-Simulator
+# **GeoFS-V3.9**_Failure-Simulator
 
 ![Version](https://img.shields.io/badge/Version-V2.0.1-3b82f6?style=flat-square&logo=git&logoColor=white)
 ![Ecosystem](https://img.shields.io/badge/GeoFS--V3.9-Failure_Simulator-06b6d4?style=flat-square&logo=box&logoColor=white)
@@ -22,4 +22,4 @@ The most advanced emergency simulation framework for **GeoFS-V3.9**. This system
 2. Install the script via [**Greasy Fork**](https://greasyfork.org/en/scripts/581515-geofs-v3-9-failure-simulator).
 3. Refresh GeoFS and the module will automatically initialize alongside the HUD.
 
-*© 2026 _init. Part of the [GeoFS-V3.9_Ecosystem](https://sites.google.com/view/geofs-v39-ecosystem/home).*
+*© 2026 _init. Part of the [**GeoFS-V3.9**_Ecosystem](https://sites.google.com/view/geofs-v39-ecosystem/home).*
