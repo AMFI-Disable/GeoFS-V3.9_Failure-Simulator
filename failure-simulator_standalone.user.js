@@ -117,7 +117,7 @@
 // @copyright           2026, _init (https://greasyfork.org/users/1594049)
 
 // @namespace           https://greasyfork.org/users/1594049
-// @version             2.0.1
+// @version             2.0.2
 // @author              _init
 // @icon                https://geofs-assets.evengao6688.workers.dev/icons/failure-simulator.png
 // @match               https://www.geo-fs.com/geofs.php*

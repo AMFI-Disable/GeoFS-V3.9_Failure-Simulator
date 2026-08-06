@@ -1,6 +1,6 @@
 # **GeoFS-V3.9**_Failure-Simulator
 
-![Version](https://img.shields.io/badge/Version-V2.0.1-3b82f6?style=flat-square&logo=git&logoColor=white)
+![Version](https://img.shields.io/badge/Version-V2.0.2-3b82f6?style=flat-square&logo=git&logoColor=white)
 ![Ecosystem](https://img.shields.io/badge/GeoFS--V3.9-Failure_Simulator-06b6d4?style=flat-square&logo=box&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Stable-10b981?style=flat-square&logo=lighthouse&logoColor=white)
 
