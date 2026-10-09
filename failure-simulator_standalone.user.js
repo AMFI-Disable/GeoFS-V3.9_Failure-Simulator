@@ -51,57 +51,57 @@
 // @name:lo             GeoFS-V3.9_ເຄື່ອງຈຳລອງຄວາມລົ້ມເຫລວ
 // @name:ur             GeoFS-V3.9_ناکامی-سمیلیٹر
 
-// @description         Advanced emergency training engine delivering realistic, unpredictable system failures. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:vi      Công cụ đào tạo khẩn cấp tiên tiến cung cấp các lỗi hệ thống thực tế, không thể đoán trước. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:zh-CN   先进的应急培训引擎提供真实的、不可预测的系统故障。 © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:zh-TW   先進的緊急訓練引擎提供真實的、不可預測的系統故障。 © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ja      高度な緊急訓練エンジンにより、現実的で予測不可能なシステム障害が発生します。 © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ko      현실적이고 예측 불가능한 시스템 오류를 제공하는 고급 비상 훈련 엔진. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fr      Moteur de formation d’urgence avancé fournissant des pannes de système réalistes et imprévisibles. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:de      Fortschrittliche Notfall-Trainings-Engine, die realistische, unvorhersehbare Systemausfälle liefert. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:es      Motor de entrenamiento de emergencia avanzado que ofrece fallas del sistema realistas e impredecibles. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:pt-BR   Mecanismo avançado de treinamento de emergência que oferece falhas de sistema realistas e imprevisíveis. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:pt-PT   Mecanismo avançado de treino de emergência que oferece falhas de sistema realistas e imprevisíveis. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ru      Усовершенствованная система обучения чрезвычайным ситуациям, обеспечивающая реалистичные и непредсказуемые сбои системы. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ar      محرك تدريب متقدم على حالات الطوارئ يقدم حالات فشل واقعية وغير متوقعة للنظام. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:tr      Gerçekçi, öngörülemeyen sistem arızaları sağlayan gelişmiş acil durum eğitim motoru. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:id      Mesin pelatihan darurat tingkat lanjut menghasilkan kegagalan sistem yang realistis dan tidak dapat diprediksi. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:th      Advanced emergency training engine delivering realistic, unpredictable system failures. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:pl      Zaawansowany silnik szkoleniowy w sytuacjach awaryjnych zapewniający realistyczne, nieprzewidywalne awarie systemu. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:nl      Geavanceerde noodtrainingsengine die realistische, onvoorspelbare systeemstoringen oplevert. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:it      Motore avanzato di formazione sulle emergenze che fornisce guasti di sistema realistici e imprevedibili. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sv      Avancerad nödutbildningsmotor som levererar realistiska, oförutsägbara systemfel. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:da      Avanceret nødtræningsmotor, der leverer realistiske, uforudsigelige systemfejl. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fi      Edistyksellinen hätäkoulutusmoottori, joka tuottaa realistisia, arvaamattomia järjestelmävirheitä. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:nb      Avansert nødopplæringsmotor som leverer realistiske, uforutsigbare systemfeil. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:cs      Pokročilý nouzový tréninkový motor poskytující realistická, nepředvídatelná selhání systému. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:hu      Fejlett vészhelyzeti képzési motor, amely valósághű, előre nem látható rendszerhibákat biztosít. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ro      Motor avansat de instruire în caz de urgență care oferă defecțiuni realiste, imprevizibile ale sistemului. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:uk      Удосконалений механізм навчання в екстрених ситуаціях, що забезпечує реалістичні, непередбачувані збої системи. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:hi      उन्नत आपातकालीन प्रशिक्षण इंजन यथार्थवादी, अप्रत्याशित सिस्टम विफलताएँ प्रदान करता है। © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:bn      উন্নত জরুরী প্রশিক্ষণ ইঞ্জিন বাস্তবসম্মত, অপ্রত্যাশিত সিস্টেম ব্যর্থতা প্রদান করে। © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fa      موتور آموزش اضطراری پیشرفته که خرابی های واقعی و غیرقابل پیش بینی سیستم را ارائه می دهد. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:he      מנוע אימון חירום מתקדם המספק תקלות מערכת מציאותיות ובלתי צפויות. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ms      Enjin latihan kecemasan lanjutan memberikan kegagalan sistem yang realistik dan tidak dapat diramalkan. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fil     Advanced na makina ng pagsasanay na pang-emergency na naghahatid ng makatotohanan, hindi mahuhulaan na mga pagkabigo ng system. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:el      Προηγμένη μηχανή εκπαίδευσης έκτακτης ανάγκης που παρέχει ρεαλιστικές, απρόβλεπτες βλάβες του συστήματος. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:hr      Napredni motor za obuku u hitnim slučajevima koji pruža realne, nepredvidive kvarove sustava. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sk      Pokročilý núdzový tréningový motor poskytujúci realistické, nepredvídateľné zlyhania systému. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:bg      Усъвършенстван двигател за обучение при спешни случаи, осигуряващ реалистични, непредвидими системни повреди. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sr      Напредни механизам за обуку у хитним случајевима пружа реалистичне, непредвидиве системске кварове. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:lt      Pažangus avarinio mokymo variklis, užtikrinantis realius, nenuspėjamus sistemos gedimus. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:lv      Uzlabots avārijas apmācību dzinējs, kas nodrošina reālistiskas, neparedzamas sistēmas kļūmes. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:et      Täiustatud hädaolukorra koolitusmootor, mis pakub realistlikke ja ettearvamatuid süsteemitõrkeid. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sl      Napreden motor za usposabljanje v sili, ki zagotavlja realistične, nepredvidljive sistemske okvare. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ca      Motor avançat d'entrenament d'emergència que ofereix errors realistes i impredictibles del sistema. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:af      Gevorderde noodopleidingsenjin wat realistiese, onvoorspelbare stelselfoute lewer. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sw      Injini ya mafunzo ya dharura ya hali ya juu inayotoa hitilafu za mfumo za kweli, zisizotabirika. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:zu      Injini yokuqeqeshwa kwezimo eziphuthumayo esezingeni eliphezulu iletha ukwehluleka kwesistimu okungokoqobo, okungalindelekile. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:mn      Яаралтай тусламжийн сургалтын дэвшилтэт хөдөлгүүр нь бодитой, урьдчилан тааварлах боломжгүй системийн доголдлыг хүргэдэг. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:my      လက်တွေ့ကျသော၊ ကြိုတင်မှန်းဆ၍မရသော စနစ်ကျရှုံးမှုများကို ပေးစွမ်းနိုင်သော အဆင့်မြင့် အရေးပေါ်လေ့ကျင့်ရေးအင်ဂျင်။ © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:km      ម៉ាស៊ីនហ្វឹកហ្វឺនសង្គ្រោះបន្ទាន់កម្រិតខ្ពស់ផ្តល់នូវភាពប្រាកដនិយម និងមិនអាចទាយទុកជាមុនបាន។ © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:lo      ເຄື່ອງຈັກການຝຶກອົບຮົມສຸກເສີນແບບພິເສດທີ່ສະຫນອງຄວາມລົ້ມເຫຼວຂອງລະບົບທີ່ບໍ່ສາມາດຄາດເດົາໄດ້ທີ່ແທ້ຈິງ. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ur      جدید ترین ایمرجنسی ٹریننگ انجن حقیقت پسندانہ، غیر متوقع نظام کی ناکامیوں کو فراہم کرتا ہے۔ © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
+// @description         Advanced emergency training engine delivering realistic, unpredictable system failures. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:vi      Công cụ đào tạo khẩn cấp tiên tiến cung cấp các lỗi hệ thống thực tế, không thể đoán trước. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:zh-CN   先进的应急培训引擎提供真实的、不可预测的系统故障。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:zh-TW   先進的緊急訓練引擎提供真實的、不可預測的系統故障。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ja      高度な緊急訓練エンジンにより、現実的で予測不可能なシステム障害が発生します。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ko      현실적이고 예측 불가능한 시스템 오류를 제공하는 고급 비상 훈련 엔진. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fr      Moteur de formation d’urgence avancé fournissant des pannes de système réalistes et imprévisibles. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:de      Fortschrittliche Notfall-Trainings-Engine, die realistische, unvorhersehbare Systemausfälle liefert. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:es      Motor de entrenamiento de emergencia avanzado que ofrece fallas del sistema realistas e impredecibles. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:pt-BR   Mecanismo avançado de treinamento de emergência que oferece falhas de sistema realistas e imprevisíveis. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:pt-PT   Mecanismo avançado de treino de emergência que oferece falhas de sistema realistas e imprevisíveis. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ru      Усовершенствованная система обучения чрезвычайным ситуациям, обеспечивающая реалистичные и непредсказуемые сбои системы. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ar      محرك تدريب متقدم على حالات الطوارئ يقدم حالات فشل واقعية وغير متوقعة للنظام. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:tr      Gerçekçi, öngörülemeyen sistem arızaları sağlayan gelişmiş acil durum eğitim motoru. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:id      Mesin pelatihan darurat tingkat lanjut menghasilkan kegagalan sistem yang realistis dan tidak dapat diprediksi. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:th      Advanced emergency training engine delivering realistic, unpredictable system failures. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:pl      Zaawansowany silnik szkoleniowy w sytuacjach awaryjnych zapewniający realistyczne, nieprzewidywalne awarie systemu. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:nl      Geavanceerde noodtrainingsengine die realistische, onvoorspelbare systeemstoringen oplevert. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:it      Motore avanzato di formazione sulle emergenze che fornisce guasti di sistema realistici e imprevedibili. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sv      Avancerad nödutbildningsmotor som levererar realistiska, oförutsägbara systemfel. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:da      Avanceret nødtræningsmotor, der leverer realistiske, uforudsigelige systemfejl. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fi      Edistyksellinen hätäkoulutusmoottori, joka tuottaa realistisia, arvaamattomia järjestelmävirheitä. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:nb      Avansert nødopplæringsmotor som leverer realistiske, uforutsigbare systemfeil. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:cs      Pokročilý nouzový tréninkový motor poskytující realistická, nepředvídatelná selhání systému. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:hu      Fejlett vészhelyzeti képzési motor, amely valósághű, előre nem látható rendszerhibákat biztosít. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ro      Motor avansat de instruire în caz de urgență care oferă defecțiuni realiste, imprevizibile ale sistemului. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:uk      Удосконалений механізм навчання в екстрених ситуаціях, що забезпечує реалістичні, непередбачувані збої системи. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:hi      उन्नत आपातकालीन प्रशिक्षण इंजन यथार्थवादी, अप्रत्याशित सिस्टम विफलताएँ प्रदान करता है। © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:bn      উন্নত জরুরী প্রশিক্ষণ ইঞ্জিন বাস্তবসম্মত, অপ্রত্যাশিত সিস্টেম ব্যর্থতা প্রদান করে। © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fa      موتور آموزش اضطراری پیشرفته که خرابی های واقعی و غیرقابل پیش بینی سیستم را ارائه می دهد. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:he      מנוע אימון חירום מתקדם המספק תקלות מערכת מציאותיות ובלתי צפויות. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ms      Enjin latihan kecemasan lanjutan memberikan kegagalan sistem yang realistik dan tidak dapat diramalkan. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fil     Advanced na makina ng pagsasanay na pang-emergency na naghahatid ng makatotohanan, hindi mahuhulaan na mga pagkabigo ng system. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:el      Προηγμένη μηχανή εκπαίδευσης έκτακτης ανάγκης που παρέχει ρεαλιστικές, απρόβλεπτες βλάβες του συστήματος. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:hr      Napredni motor za obuku u hitnim slučajevima koji pruža realne, nepredvidive kvarove sustava. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sk      Pokročilý núdzový tréningový motor poskytujúci realistické, nepredvídateľné zlyhania systému. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:bg      Усъвършенстван двигател за обучение при спешни случаи, осигуряващ реалистични, непредвидими системни повреди. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sr      Напредни механизам за обуку у хитним случајевима пружа реалистичне, непредвидиве системске кварове. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:lt      Pažangus avarinio mokymo variklis, užtikrinantis realius, nenuspėjamus sistemos gedimus. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:lv      Uzlabots avārijas apmācību dzinējs, kas nodrošina reālistiskas, neparedzamas sistēmas kļūmes. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:et      Täiustatud hädaolukorra koolitusmootor, mis pakub realistlikke ja ettearvamatuid süsteemitõrkeid. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sl      Napreden motor za usposabljanje v sili, ki zagotavlja realistične, nepredvidljive sistemske okvare. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ca      Motor avançat d'entrenament d'emergència que ofereix errors realistes i impredictibles del sistema. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:af      Gevorderde noodopleidingsenjin wat realistiese, onvoorspelbare stelselfoute lewer. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sw      Injini ya mafunzo ya dharura ya hali ya juu inayotoa hitilafu za mfumo za kweli, zisizotabirika. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:zu      Injini yokuqeqeshwa kwezimo eziphuthumayo esezingeni eliphezulu iletha ukwehluleka kwesistimu okungokoqobo, okungalindelekile. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:mn      Яаралтай тусламжийн сургалтын дэвшилтэт хөдөлгүүр нь бодитой, урьдчилан тааварлах боломжгүй системийн доголдлыг хүргэдэг. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:my      လက်တွေ့ကျသော၊ ကြိုတင်မှန်းဆ၍မရသော စနစ်ကျရှုံးမှုများကို ပေးစွမ်းနိုင်သော အဆင့်မြင့် အရေးပေါ်လေ့ကျင့်ရေးအင်ဂျင်။ © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:km      ម៉ាស៊ីនហ្វឹកហ្វឺនសង្គ្រោះបន្ទាន់កម្រិតខ្ពស់ផ្តល់នូវភាពប្រាកដនិយម និងមិនអាចទាយទុកជាមុនបាន។ © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:lo      ເຄື່ອງຈັກການຝຶກອົບຮົມສຸກເສີນແບບພິເສດທີ່ສະຫນອງຄວາມລົ້ມເຫຼວຂອງລະບົບທີ່ບໍ່ສາມາດຄາດເດົາໄດ້ທີ່ແທ້ຈິງ. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ur      جدید ترین ایمرجنسی ٹریننگ انجن حقیقت پسندانہ، غیر متوقع نظام کی ناکامیوں کو فراہم کرتا ہے۔ © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
 
 // @require             https://update.greasyfork.org/scripts/581510/code.js
 // @require             https://update.greasyfork.org/scripts/581511/code.js
@@ -114,11 +114,11 @@
 // @compatible          safari
 // @compatible          brave
 // @compatible          opera
-// @copyright           2026, _init (https://greasyfork.org/users/1594049)
+// @copyright           2026, AMFI-Disable (https://greasyfork.org/users/1594049)
 
 // @namespace           https://greasyfork.org/users/1594049
 // @version             2.0.2
-// @author              _init
+// @author              AMFI-Disable
 // @icon                https://geofs-assets.evengao6688.workers.dev/icons/failure-simulator.png
 // @match               https://www.geo-fs.com/geofs.php*
 // @grant               none
