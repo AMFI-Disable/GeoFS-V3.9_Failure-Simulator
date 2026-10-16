@@ -6,6 +6,18 @@
 
 The most advanced emergency simulation framework for **GeoFS-V3.9**. This system introduces high-fidelity probabilistic failures across every major aircraft system, from engine flameouts to hydraulic leaks, forcing pilots to react with professional precision.
 
+---
+
+## ⚖️ Educational & Fair-Play Disclaimer
+
+> [!CAUTION]
+> **IMPORTANT NOTICE & DISCLAIMER**:
+> This codebase is provided strictly for educational, research, and testing purposes in authorized environments.
+> Using automated assistance or unauthorized scripts in violation of platform terms of service or anti-cheat policies may lead to account penalties.
+> The developers and contributors accept no responsibility or liability for misuse of this software.
+
+---
+
 ## ✨ Features
 
 - **🎲 Probabilistic Engine**: Real-time simulation of system failures based on customizable probability sliders (0.1% to 100%).
