@@ -128,7 +128,23 @@
 // ==/UserScript==
 
 (() => {
-    
+    /**
+     * Runtime Version Guard: GeoFS-V3.9 Suite Compatibility
+     * Ensures this module only executes on GeoFS v3.9 or earlier, and gracefully
+     * deactivates if GeoFS v4.0+ is detected.
+     */
+    function isUnsupportedGeoFS() {
+        const raw = window.geofs?.version;
+        if (raw === undefined || raw === null) return false;
+        const clean = typeof raw === 'string' ? raw.replace(/^[^\d.]*/, '') : raw;
+        const num = typeof clean === 'number' ? clean : parseFloat(clean);
+        return !isNaN(num) && num >= 4.0;
+    }
+
+    if (isUnsupportedGeoFS()) {
+        console.warn("[GeoFS-V3.9_Failure-Simulator] Inactive: GeoFS v" + window.geofs?.version + " detected (suite only supports GeoFS v3.9 and earlier).");
+        return;
+    }
 
     class FailureSimulator {
         /**
@@ -721,6 +737,7 @@
     };
 
     window.initFailures = () => {
+        if (isUnsupportedGeoFS()) return;
         if (document.getElementById('fail-btn')) return;
         const btn = document.createElement('div');
         btn.id = 'fail-btn';
@@ -736,7 +753,14 @@
         document.body.appendChild(btn);
     };
 
-    function check() { if (window.geofs && window.geofs.aircraft && window.geofs.aircraft.instance) window.initFailures(); else setTimeout(check, 1000); }
+    function check() {
+        if (isUnsupportedGeoFS()) {
+            console.warn("[GeoFS-V3.9_Failure-Simulator] Inactive: GeoFS v" + window.geofs?.version + " detected (suite only supports GeoFS v3.9 and earlier).");
+            return;
+        }
+        if (window.geofs && window.geofs.aircraft && window.geofs.aircraft.instance) window.initFailures();
+        else setTimeout(check, 1000);
+    }
     if (window.SafeInit) {
         window.SafeInit('GeoFS-V3.9_Failure-Simulator', check);
     } else {
