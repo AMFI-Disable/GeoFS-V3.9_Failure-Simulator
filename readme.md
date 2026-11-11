@@ -1,37 +1,25 @@
-# **GeoFS-V3.9**_Failure-Simulator
+# GeoFS-V3.9_Failure-Simulator
 
-![Version](https://img.shields.io/badge/Version-V2.0.2-3b82f6?style=flat-square&logo=git&logoColor=white)
-![Ecosystem](https://img.shields.io/badge/GeoFS--V3.9-Failure_Simulator-06b6d4?style=flat-square&logo=box&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Stable-10b981?style=flat-square&logo=lighthouse&logoColor=white)
+![Version](https://img.shields.io/badge/Version-v3.9.0-3b82f6?style=flat-square)
 
-The most advanced emergency simulation framework for **GeoFS-V3.9**. This system introduces high-fidelity probabilistic failures across every major aircraft system, from engine flameouts to hydraulic leaks, forcing pilots to react with professional precision.
+Adds configurable aircraft-system failures and repair controls.
 
----
+## Features
 
-## ⚖️ Educational & Fair-Play Disclaimer
+- Use the **FAILURES** control to open the failure panel.
+- Trigger or repair individual failures and configure random failure behavior.
+- Some failures interact with other ecosystem scripts.
 
-> [!CAUTION]
-> **IMPORTANT NOTICE & DISCLAIMER**:
-> This codebase is provided strictly for educational, research, and testing purposes in authorized environments.
-> Using automated assistance or unauthorized scripts in violation of platform terms of service or anti-cheat policies may lead to account penalties.
-> The developers and contributors accept no responsibility or liability for misuse of this software.
+## Installation
 
----
+1. Install a userscript manager such as [Tampermonkey](https://www.tampermonkey.net/).
+2. Install or update the script from [Greasy Fork](https://greasyfork.org/en/scripts/581515-geofs-v3-9-failure-simulator).
+3. Open or reload GeoFS V3.9. The script starts automatically.
 
-## ✨ Features
+The script activates only when GeoFS reports version V3.9 (including V3.9 patch releases). It waits for the version to become available and remains inactive on other versions. Most standalone scripts load the Core Library and Design System as dependencies; the userscript manager handles those dependencies.
 
-- **🎲 Probabilistic Engine**: Real-time simulation of system failures based on customizable probability sliders (0.1% to 100%).
-- **🔥 Multi-System Failures**: Simulates failures in Engines, Fuel Tanks, Hydraulics, Flight Controls (Ailerons/Elevators/Rudder), Electrical Bus, and MCAS.
-- **🛠️ Integrated Repair Logic**: One-click global repair or individual system restoration with detailed console feedback.
-- **🧩 HUD Pro Integration**: Plugs directly into the **[MAIN]** dashboard of the HUD Information Display Pro for consolidated monitoring.
-- **🚀 Synthesized Debugging**: Verbose, branded console logs track every failure trigger and repair event for full traceability.
+The **GeoFS-V3.9_Ecosystem** panel shows startup status and notifications. Select × to dismiss it, or wait for it to disappear. A script listed as not detected is not necessarily uninstalled.
 
-## 🛠️ Installation
+## License
 
-### Standalone (Tampermonkey)
-
-1. Install the [Tampermonkey](https://www.tampermonkey.net/) extension.
-2. Install the script via [**Greasy Fork**](https://greasyfork.org/en/scripts/581515-geofs-v3-9-failure-simulator).
-3. Refresh GeoFS and the module will automatically initialize alongside the HUD.
-
-*© 2026 AMFI-Disable. Part of the [**GeoFS-V3.9**_Ecosystem](https://sites.google.com/view/geofs-v39-ecosystem/home).*
+[MIT](license) · © 2026 AMFI-Disable · [GeoFS-V3.9 Ecosystem](https://sites.google.com/view/geofs-v39-ecosystem/home)
