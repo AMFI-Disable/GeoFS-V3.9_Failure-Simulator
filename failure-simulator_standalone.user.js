@@ -117,9 +117,9 @@
 // @copyright           2026, AMFI-Disable (https://greasyfork.org/users/1594049)
 
 // @namespace           https://greasyfork.org/users/1594049
-// @version             2.0.2
+// @version             2.0.5
 // @author              AMFI-Disable
-// @icon                https://geofs-assets.evengao6688.workers.dev/icons/failure-simulator.png
+// @icon                https://www.geo-fs.com/images/icons/favicon.ico
 // @match               https://www.geo-fs.com/geofs.php*
 // @grant               none
 // @license             MIT
@@ -589,7 +589,7 @@
     style.innerHTML = `
         .pulse-red { animation: pulseRed 1s infinite alternate; }
         @keyframes pulseRed { from { box-shadow: 0 0 5px #ef4444; } to { box-shadow: 0 0 15px #ef4444; } }
-        .sect-header:hover { background: rgba(255, 159, 5, 0.15); }
+        .sect-header:hover { background: rgba(255, 255, 255, 0.15); }
     `;
     document.head.appendChild(style);
 
@@ -650,19 +650,19 @@
 
     function buildRow(title, desc, id, failId, path) {
         return `
-        <div style="margin-bottom: 8px; padding: 10px; background: rgba(255,159,5,0.03); border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);">
+        <div style="margin-bottom: 8px; padding: 10px; background: rgba(255, 255, 255, 0.03); border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
                 <div style="display:flex; align-items:center; gap:8px;">
                     <div id="led-${failId}" style="width:8px; height:8px; border-radius:50%; background:#22c55e; box-shadow:0 0 5px #22c55e; transition:0.3s;"></div>
-                    <span style="font-size:11px; font-weight:bold; color:#ff9f05;">${title}</span>
+                    <span style="font-size:11px; font-weight:bold; color:#dddddd;">${title}</span>
                 </div>
                 <span id="val${id}" style="font-size:10px; color:rgba(255,255,255,0.4);">0%</span>
             </div>
-            <div style="font-size:9px; color:rgba(255,255,255,0.4); margin-bottom:8px; font-style:italic; line-height:1.2;">${desc}</div>
+            <div style="font-size:10px; color:rgba(255,255,255,0.4); margin-bottom:8px; font-style:italic; line-height:1.2;">${desc}</div>
             <input type="range" id="slide-${id}" min="0" max="1" step="0.01" style="width:100%; height:4px; margin-bottom:10px;" oninput="window.failureSimulator.setProbability('${path}', parseFloat(this.value), '${id}')">
             <div style="display:flex; gap:5px;">
-                <button onclick="window.failureSimulator.fail('${failId}')" style="flex:1; padding:5px; background:rgba(239,68,68,0.2); border:1px solid #ef4444; color:#ff6b6b; font-size:9px; cursor:pointer;">FAIL</button>
-                <button onclick="window.failureSimulator.fix('${failId}')" style="flex:1; padding:5px; background:rgba(34,197,94,0.2); border:1px solid #22c55e; color:#4ade80; font-size:9px; cursor:pointer;">FIX</button>
+                <button onclick="window.failureSimulator.fail('${failId}')" style="flex:1; padding:5px; background:rgba(239,68,68,0.2); border:1px solid #ef4444; color:#ff6b6b; font-size:10px; cursor:pointer;">FAIL</button>
+                <button onclick="window.failureSimulator.fix('${failId}')" style="flex:1; padding:5px; background:rgba(34,197,94,0.2); border:1px solid #22c55e; color:#4ade80; font-size:10px; cursor:pointer;">FIX</button>
             </div>
         </div>`;
     }
@@ -677,7 +677,7 @@
             
             let html = `
                 <div style="display:flex; justify-content:space-between; margin-bottom:20px; cursor:move;" id="fail-header">
-                    <span style="font-weight:bold; font-size:12px; letter-spacing:1px; color:#ff9f05;">⚠️ FAILURE SIMULATOR</span>
+                    <span style="font-weight:bold; font-size:12px; letter-spacing:1px; color:#dddddd;">⚠️ FAILURE SIMULATOR</span>
                     <button onclick="document.getElementById('geofs-failure-menu').style.display='none'" style="background:none; border:none; color:white; cursor:pointer; font-size:18px;">✕</button>
                 </div>
                 <div style="max-height:70vh; overflow-y:auto; padding-right:5px;">
@@ -686,15 +686,15 @@
 
             const section = (title, groupId, contentHtml) => `
                 <div style="margin-bottom:15px;">
-                    <div class="sect-header" onclick="window.failureSimulator.toggleSection('${groupId}')" style="display:flex; justify-content:space-between; align-items:center; padding:10px; background:rgba(255,159,5,0.05); border-radius:8px; cursor:pointer; transition:0.2s;">
+                    <div class="sect-header" onclick="window.failureSimulator.toggleSection('${groupId}')" style="display:flex; justify-content:space-between; align-items:center; padding:10px; background:rgba(255, 255, 255, 0.05); border-radius:8px; cursor:pointer; transition:0.2s;">
                         <div style="display:flex; align-items:center; gap:10px;">
                             <span id="sect-arrow-${groupId}" style="font-size:10px; transition:0.3s; transform:rotate(90deg);">▶</span>
-                            <span style="font-size:10px; color:#ff9f05; text-transform:uppercase; letter-spacing:2px; font-weight:900;">${title}</span>
+                            <span style="font-size:10px; color:#dddddd; text-transform:uppercase; letter-spacing:2px; font-weight:900;">${title}</span>
                         </div>
                         <div style="display:flex; gap:3px;" onclick="event.stopPropagation()">
-                            <button onclick="window.failureSimulator.groupAuto('${groupId}')" style="padding:2px 6px; font-size:8px; background:rgba(255,159,5,0.15); border:1px solid #ff9f05; color:#ff9f05; cursor:pointer; border-radius:4px; font-weight:bold;">AUTO</button>
-                            <button onclick="window.failureSimulator.groupFail('${groupId}')" style="padding:2px 6px; font-size:8px; background:rgba(239,68,68,0.1); border:1px solid #ef4444; color:#ff6b6b; cursor:pointer; border-radius:4px; font-weight:bold;">FAIL</button>
-                            <button onclick="window.failureSimulator.groupFix('${groupId}')" style="padding:2px 6px; font-size:8px; background:rgba(34,197,94,0.1); border:1px solid #22c55e; color:#4ade80; cursor:pointer; border-radius:4px; font-weight:bold;">FIX</button>
+                            <button onclick="window.failureSimulator.groupAuto('${groupId}')" style="padding:2px 6px; font-size:10px; background:rgba(255, 255, 255, 0.15); border:1px solid #dddddd; color:#dddddd; cursor:pointer; border-radius:4px; font-weight:bold;">AUTO</button>
+                            <button onclick="window.failureSimulator.groupFail('${groupId}')" style="padding:2px 6px; font-size:10px; background:rgba(239,68,68,0.1); border:1px solid #ef4444; color:#ff6b6b; cursor:pointer; border-radius:4px; font-weight:bold;">FAIL</button>
+                            <button onclick="window.failureSimulator.groupFix('${groupId}')" style="padding:2px 6px; font-size:10px; background:rgba(34,197,94,0.1); border:1px solid #22c55e; color:#4ade80; cursor:pointer; border-radius:4px; font-weight:bold;">FIX</button>
                         </div>
                     </div>
                     <div id="sect-content-${groupId}" style="padding:10px 5px 0 5px;">${contentHtml}</div>
@@ -741,7 +741,7 @@
         if (document.getElementById('fail-btn')) return;
         const btn = document.createElement('div');
         btn.id = 'fail-btn';
-        btn.style.cssText = "position:fixed; right:15px; bottom:15px; z-index:2000000; padding:5px 15px; background:#ef4444; color:white; border:1px solid white; border-radius:5px; font-weight:bold; font-size:10px; cursor:move; box-shadow:0 4px 15px rgba(0,0,0,0.5);";
+        btn.style.cssText = "position:fixed; right:15px; bottom:15px; z-index:2000000; padding:5px 15px; background:rgba(0,0,0,0.7); color:white; border:1px solid #888; border-radius:15px; font-weight:bold; font-size:10px; cursor:move; box-shadow:0 4px 15px rgba(0,0,0,0.5);";
         btn.innerText = "FAILURES";
         
         let hasMoved = false;
